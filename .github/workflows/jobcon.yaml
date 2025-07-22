@@ -1,0 +1,15 @@
+name: wfcon
+
+on: 
+  push:
+    paths:
+      - '.github/workflows/jobcon.yaml'
+
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: my-group
+      cancel-in-progress: true
+    steps:
+      - run: sleep 10m
