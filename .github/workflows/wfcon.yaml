@@ -4,6 +4,9 @@ on:
   push:
     paths:
       - '.github/workflows/wfcon.yaml'
+      
+concurrency:
+  group: my-group
 
 jobs:
   j:
