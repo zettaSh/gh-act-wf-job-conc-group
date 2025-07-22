@@ -1,0 +1,12 @@
+name: wfcon
+
+on: 
+  push:
+    paths:
+      - '.github/workflows/wfcon.yaml'
+
+jobs:
+  j:
+    runs-on: ubuntu-latest
+    steps:
+      - run: sleep 10m
