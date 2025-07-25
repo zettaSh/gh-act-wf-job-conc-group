@@ -5,8 +5,7 @@ on:
     paths:
       - '.github/workflows/wfcon.yaml'
       
-concurrency:
-  group: my-group
+concurrency: my-group
 
 jobs:
   j:
