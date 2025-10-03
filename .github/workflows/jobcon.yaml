@@ -6,7 +6,7 @@ on:
       - '.github/workflows/jobcon.yaml'
 
 jobs:
-  j:
+  jj:
     runs-on: ubuntu-latest
     concurrency:
       group: my-group
