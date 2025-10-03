@@ -8,7 +8,7 @@ on:
 concurrency: my-group
 
 jobs:
-  j:
+  wfj:
     runs-on: ubuntu-latest
     steps:
       - run: sleep 10m
